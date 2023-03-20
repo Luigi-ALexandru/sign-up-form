@@ -10,41 +10,46 @@
 <body>
 
 <div class="container">
-    
+
     <img src="images/lush-island.jpg" alt="lush island">
 
     <div class="content-container">
         <div class="title">
-            <h1>Win a Free Trip to an Exotic Island in Far East Asia!</h1>
-        </div>
-        <div class="text-content">
-            Are you dreaming of a getaway to a tropical paradise? Look no further! 
-            Sign up now for your chance to win a free trip to a breathtaking island in the far east of Asia. 
+            <h1>Win a Free Trip to an Exotic Island</h1>
+            <div class="text-content">
+                Are you dreaming of a getaway to a tropical paradise? Look no further! 
+                Sign up now for your chance to win a free trip to a breathtaking island in the far east of Asia. 
+            </div>
         </div>
         <div class="user-form">
-        <form action="" method="">
-        <div class="names">
-            <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name" placeholder="E.g. John" required>
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" placeholder="E.g. Smith" required>
+            <form action="" method="">
+            <div class="f-name">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="E.g. John" required>
+            </div>
+            <div class="l-name">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="E.g. Smith" required>
+            </div>
+            <div class="e-mail">
+                <label for="user-email">Email</label>
+                <input type="email" id="user-email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="pass">
+                <label for="user-password">Password</label>
+                <input type="password" id="user-password" name="password" placeholder="Password" required>
+            </div>
+            <div class="confirm-pass">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" id="confirm-password" name="password" placeholder="Confirm Password" required>
+            </div>
+            </form>
         </div>
-        <div class="email-and-dob">
-            <label for="user-email">Email:</label>
-            <input type="email" id="user-email" name="email" placeholder="you@example.com" required>
-            <label for="dob">Date of birth:</label>
-            <input type="date" id="dob" name="dob" required>
-        </div>
-        <div class="pass">
-            <label for="user-password">Password:</label>
-            <input type="password" id="user-password" name="password" placeholder="Password" required>
-            <label for="confirm-password">Confirm password:</label>
-            <input type="password" id="confirm-password" name="password" placeholder="Confirm Password" required>
-        </div>
-        <div class="tarea">
-            <textarea maxlength="250"></textarea>
-        </div>
-        </form>
+        <div class="empty">
+            <button type="submit">Submit</button>
+            <p>Once the form is submitted, we will reach out to you via email in the event that you are selected as the winner.
+                Please note that <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms & conditions</a> apply.
+            </p>
         </div>
     </div>
 
